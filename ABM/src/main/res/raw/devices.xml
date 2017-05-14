@@ -123,6 +123,12 @@ File contain partitions layout for flashing kernel & recovery
         <recovery>/dev/block/platform/sdhci-tegra.3/by-name/SOS</recovery>
         <cache>/dev/block/platform/sdhci-tegra.3/by-name/CAC</cache>
     </device>
+   <device>
+        <model>Redmi 3S</model>
+        <kernel>/dev/block/bootdevice/by-name/boot</kernel>
+        <recovery>/dev/block/bootdevice/by-name/recovery</recovery>
+        <cache>/dev/block/bootdevice/by-name/cache</cache>
+    </device>
     <device>
         <model>ST25,ST25i,ST25a,Xperia U,kumquat</model> <!-- Sony Xperia U kumquat -->
         <kernel>/dev/block/mmcblk0p9</kernel>

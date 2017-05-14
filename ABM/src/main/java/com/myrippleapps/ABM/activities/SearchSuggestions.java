@@ -1,4 +1,4 @@
-package dz.atoxyd.ABM.activities;
+package com.myrippleapps.ABM.activities;
 
 //original author: atoxyd 
 //modified by: ........

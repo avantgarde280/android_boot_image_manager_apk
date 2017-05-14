@@ -1,4 +1,4 @@
-package dz.atoxyd.ABM.util;
+package com.myrippleapps.ABM.util;
 
 //original author: atoxyd 
 //modified by: ........
@@ -12,7 +12,7 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 import android.widget.ImageView;
 
-import dz.atoxyd.ABM.R;
+import com.myrippleapps.ABM.R;
 
 import java.io.File;
 import java.util.List;

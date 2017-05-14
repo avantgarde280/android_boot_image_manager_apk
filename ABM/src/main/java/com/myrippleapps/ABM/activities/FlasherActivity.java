@@ -1,4 +1,4 @@
-package dz.atoxyd.ABM.activities;
+package com.myrippleapps.ABM.activities;
 
 //original author: atoxyd 
 //modified by: ........
@@ -28,11 +28,11 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
 
-import dz.atoxyd.ABM.R;
-import dz.atoxyd.ABM.util.CMDProcessor;
-import dz.atoxyd.ABM.util.Constants;
-import dz.atoxyd.ABM.util.Helpers;
-import dz.atoxyd.ABM.util.ActivityThemeChangeInterface;
+import com.myrippleapps.ABM.R;
+import com.myrippleapps.ABM.util.CMDProcessor;
+import com.myrippleapps.ABM.util.Constants;
+import com.myrippleapps.ABM.util.Helpers;
+import com.myrippleapps.ABM.util.ActivityThemeChangeInterface;
 
 import java.io.BufferedInputStream;
 import java.io.File;

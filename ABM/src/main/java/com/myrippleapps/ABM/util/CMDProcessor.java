@@ -1,4 +1,4 @@
-package dz.atoxyd.ABM.util;
+package com.myrippleapps.ABM.util;
 
 //original author: atoxyd 
 //modified by: ........

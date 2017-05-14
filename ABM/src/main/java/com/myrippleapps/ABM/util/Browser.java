@@ -1,4 +1,4 @@
-package dz.atoxyd.ABM.util;
+package com.myrippleapps.ABM.util;
 
 //original author: atoxyd 
 //modified by: ........
@@ -10,9 +10,9 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import dz.atoxyd.ABM.R;
-import dz.atoxyd.ABM.util.Helpers;
-import dz.atoxyd.ABM.util.FileArrayAdapter;
+import com.myrippleapps.ABM.R;
+import com.myrippleapps.ABM.util.Helpers;
+import com.myrippleapps.ABM.util.FileArrayAdapter;
 
 import java.io.File;
 import java.io.FileFilter;

@@ -1,4 +1,4 @@
-package dz.atoxyd.ABM.activities;
+package com.myrippleapps.ABM.activities;
 
 //original author: atoxyd 
 //modified by: ........
@@ -25,10 +25,10 @@ import android.widget.Toast;
 
 
 
-import dz.atoxyd.ABM.R;
-import dz.atoxyd.ABM.util.Constants;
-import dz.atoxyd.ABM.util.Helpers;
-import dz.atoxyd.ABM.util.ActivityThemeChangeInterface;
+import com.myrippleapps.ABM.R;
+import com.myrippleapps.ABM.util.Constants;
+import com.myrippleapps.ABM.util.Helpers;
+import com.myrippleapps.ABM.util.ActivityThemeChangeInterface;
 
 
 import java.io.File;

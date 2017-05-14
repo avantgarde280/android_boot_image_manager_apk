@@ -1,4 +1,4 @@
-package dz.atoxyd.ABM.activities;
+package com.myrippleapps.ABM.activities;
 
 //original author: atoxyd 
 //modified by: ........
@@ -35,13 +35,13 @@ import android.widget.Toast;
 import com.github.clans.fab.FloatingActionButton;
 import com.github.clans.fab.FloatingActionMenu;
 
-import dz.atoxyd.ABM.R;
-import dz.atoxyd.ABM.util.Constants;
-import dz.atoxyd.ABM.util.Helpers;
-import dz.atoxyd.ABM.util.Item;
-import dz.atoxyd.ABM.util.FileArrayAdapter;
-import dz.atoxyd.ABM.util.Browser;
-import dz.atoxyd.ABM.util.ActivityThemeChangeInterface;
+import com.myrippleapps.ABM.R;
+import com.myrippleapps.ABM.util.Constants;
+import com.myrippleapps.ABM.util.Helpers;
+import com.myrippleapps.ABM.util.Item;
+import com.myrippleapps.ABM.util.FileArrayAdapter;
+import com.myrippleapps.ABM.util.Browser;
+import com.myrippleapps.ABM.util.ActivityThemeChangeInterface;
 
 import java.io.File;
 import java.io.FileInputStream;

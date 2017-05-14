@@ -1,4 +1,4 @@
-package dz.atoxyd.ABM.util;
+package com.myrippleapps.ABM.util;
 
 //original author: atoxyd 
 //modified by: ........
@@ -11,7 +11,7 @@ import android.os.Environment;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import dz.atoxyd.ABM.R;
+import com.myrippleapps.ABM.R;
 
 import java.io.File;
 import java.io.IOException;
@@ -26,7 +26,7 @@ import java.io.InputStreamReader;
 public class Helpers implements Constants {
 
     public static boolean checkSu() {
-        if (!new File("/system/bin/su").exists() && !new File("/system/xbin/su").exists()) {
+        if (!new File("/system/bin/su").exists() && !new File("/system/xbin/su").exists() && !new File("/sbin/su").exists() && !new File("/su/bin/su").exists()) {
             Log.e(TAG, " su does not exist!!!");
             return false; // tell caller to bail...
         }
